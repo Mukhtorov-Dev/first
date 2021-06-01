@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Contact</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+        <!-- /Bootstrap CSS -->
         <style>
             label {
                 color: grey;
@@ -33,9 +36,10 @@
         </style>
     </head>
     <body>
-        <a href="index.html" target="_blank"><---Back</a>
-        <h3><b>Contact me</b></h3>
-        <form action="server.php" method="GET">
+        <div class="container">
+            <a href="index.html" target="_blank"><---Back</a>
+            <h3><b>Contact me</b></h3>
+            <form action="server.php" method="GET">
             <div class="id">
                 <label for="firstname">Firstname</label>
                 <input type="text" name="firstname" id="firstname" placeholder="Ismingiz"> 
@@ -54,5 +58,6 @@
             </div>
             <button type="submit">Yuborish</button>
         </form>
+        </div>
     </body>
 </html>
